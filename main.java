@@ -14,7 +14,12 @@ public class Main {
             r.setKm(scan.nextFloat());
             System.out.println("Digite o ano do carro");
             r.setAno(scan.nextInt());       
-            System.out.println(r.toString());                 
+            System.out.println(r.toString());           
+            if(getRodado>10000){
+                System.out.println("Roda muito");
+            }
+            else 
+                System.out.println("Roda pouco");
         }
     
 }
