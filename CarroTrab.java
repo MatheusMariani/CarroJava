@@ -40,7 +40,7 @@ public class CarroTrab {
         
         @Override
         public String toString(){
-            return "Modelo = " +modelo +"\nMarca = "+marca+"\nAno = "+ano+"\nKm = "+quilometragem+"\n Km/Ano"+getRodado(ano,quilometragem);
+            return "Modelo = " +modelo +"\nMarca = "+marca+"\nAno = "+ano+"\nKm = "+quilometragem+"\n Km/Ano = "+getRodado(ano,quilometragem);
                   
         }
         public float getRodado(int ano, float Km){
